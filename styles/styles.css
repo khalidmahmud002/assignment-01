@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    font-size: 16px;    
+    font-weight: 600px;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #002b12;
+    
+}
+.btn1{
+background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    font-size: 16px;    
+    font-weight: 600px;
+    color: white;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: #002b12;
+    
+}
+
+
+.logo{
+    width: 139px;
+}
+
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header{
+    background-color:white;
+    padding: 16px 120px;
+}
+
+nav{
+    width: 85%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+
+
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight:500;
+
+}
+
+
+#banner{
+    padding: 115.5px 120px 179.5px;
+    /* border: 1px solid red; */
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background:url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+}
+
+#banner .banner-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner .banner-container .top-button{
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 1000px;
+    padding: 8px 12px 8px 6px;
+    vertical-align:middle;
+    margin: 8px 12px;
+}
+
+#banner .banner-container h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 16px;
+}
+
+#banner .banner-container h1 .h1-color{
+    color: #30B868
+    
+}
+
+#banner .banner-container p{
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+
+
+
+#cards{
+    padding-top: 30px;
+}
+
+#cards .card-container{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+
+}
+
+
+.card-container .card-heading{
+text-align: center;
+}
+
+
+.card-container .card-heading h1{
+font-size: 48px;
+font-weight: bold;
+color: #001931;
+margin-bottom: 16px;
+}
+
+.card-container .card-heading p{
+font-size: 16px;
+color: #627382;
+margin-bottom: 44px;
+}
+
+
+
+ .card-container .card-box{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+ }
+
+.card-box .card-info{
+    text-align: center;
+    padding: 69.5px 24px;
+    max-width: 322px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #0019314b;
+
+}
+
+.card-info .icon-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;    
+    margin: 0 auto 16px;
+}
+
+.card-info img{
+    margin: 0 auto;
+}
+
+.card-box .card-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card-box .card-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+
+/* Second Brain Section */
+
+#Brain{
+    padding-top: 120px;
+}
+
+#Brain .brain-container{
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.brain-container .text{
+    width: 700px;
+}
+
+.brain-container .image{
+    width: 600px;
+    height: 600px;
+}
+
+.brain-container .text .p1{
+    font-size: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.brain-container .text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-container .text .p2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+
+
+.brain-container .lists .list{
+    display: flex;
+}
+
+.lists .list{
+    padding-bottom: 16px;
+}
+
+
+.lists .list p{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+
+#access{
+    padding-top: 120px;
+
+}
+
+
+#access .access-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+
+.access-heading h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+
+}
+.access-heading .ptop{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+
+.access-container .pbottom{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-top: 16px;
+}
+
+
+
+footer{
+    padding-top: 120px;  
+}
+
+
+footer .footer-container{
+    width: 85%;
+    max-width: 1600px;
+    background-color: #001931;
+    margin: 0 auto;
+    padding: 120px 120px 30px;
+}
+
+.footer-container .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.social p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.social .icons{
+    display: flex;
+    gap: 16px;
+}
+
+
+.footer-container hr{
+    margin-bottom: 30px;
+}
+
+
+.footer-bottom p{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
